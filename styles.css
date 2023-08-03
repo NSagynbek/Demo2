@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%); 
+}
+
+div,input,button{
+    border-radius: 5px;
+}
+.container{
+    position: relative;
+    width: 400px;
+    background-color: white;
+    padding: 40px 35px;
+}
+
+header{
+    font-size: 2rem;
+    margin-bottom: 50px;
+    font-weight:600 ;
+}
+
+.input-field,form .form-actions{
+    margin: 25px 0;
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+
+.input-field input{
+    
+    height: 100%;
+    width: 100%;
+    border: 1px solid silver;
+    padding-left: 15px;
+    outline: 0;
+    font-size: 19px;
+    transition: 0.4s;
+}
+
+
+input:focus{
+    border: 1px solid #1da1f2;
+}
+
+.input-field label{
+left: 15px;
+pointer-events: none;
+color: gray;
+font: 18px;
+transition: 0.4s;
+}
+
+.show{
+    right: 30px;
+    color: #111;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    visibility: hidden; 
+}
+
+input:valid ~ .show{
+    visibility: visible;
+}   
+
+
+
+
+.input-field label, .show{
+    position: absolute;
+    top: 35%;
+    transform: translateY(-40%);
+    
+    
+}
+
+input:focus ~ label, 
+input:valid~label{
+    transform: translateY(-33px);
+    background: white;
+    font: 16px;
+    color: #1da1f2;
+
+}
+
+
+.form-actions button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    color: rgb(248,248,248);
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(43deg,#4158d0 0%, #c850c0 46%, #ffcc70 100%);
+    align-items: center;
+    gap: 10px;
+}
+
+.form-actions button:hover{
+    background-image: linear-gradient(43deg, #1d33a7 0%,#97148e 46%, #aa7921 100% );
+}
+
+.form-actions button i{
+    transition: 0.4s;
+    display: inline-block;
+    position: relative;
+}
+
+.form-actions button:hover i{
+    transform: rotateX(360deg);
+    -webkit-transform:rotateX(360deg);
+    -ms-transform:rotateX(360deg) ;
+}
+
+.info-label{
+    margin: 35px 0 20px 0;
+    font-size: 16px;
+    color: gray;
+}
+
+.social-login{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.social-login .social-button i{
+    transition: all .4s ;
+    display: inline-block;
+    position: relative;
+    margin-right: 2px;
+}
+
+.social-login .social-button:hover i{
+    transform: rotateX(360deg);
+    -webkit-transform:rotateX(360deg);
+    -ms-transform:rotateX(360deg) ; 
+}
+
+.social-button{
+    padding: 5px 5px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.social-button.facebook{
+    background-color: #2151c0;
+}
+
+.social-button.google{
+    background-color: #c1152f;
+}
+
+.social-button.facebook:hover{
+    background-color: #0439b5;
+}
+
+.social-button.google:hover{
+    background-color: #b30f27;
+}
+
+.signup
+ {
+    margin-top:40px;
+}
+
+.signup span
+ {
+    color: #357fb0;
+    cursor: pointer;
+}
+
+.signup span:hover
+{
+    color: #357fb0;
+    text-decoration: underline;
+}
+
+
+
+.signup-form{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
