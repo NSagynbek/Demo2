@@ -21,6 +21,12 @@ You can customize the styling of this web app by modifying the CSS in the styles
 
 Installation
 No installation is required for this web app. Simply open the index.html file in your web browser to start using it.
+## Visit Our Website
+
+Explore LaslesVPN on our GitHub Pages website, where you can try out the service and learn more about our features and plans.
+
+[Visit on GitHub Pages](https://NSagynbek.github.io/login-and-registration-form/)
+
 
 License
 This project is open-source and available under the MIT License. Feel free to use and modify it according to your needs.
