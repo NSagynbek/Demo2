@@ -2,6 +2,8 @@ Simple Login and Signup Form Web App
 This is a simple web application that provides a user-friendly login and signup experience. It allows users to switch between the login and signup forms with ease and includes a password toggle feature to show or hide the password.
 ![footer](https://github.com/NSagynbek/login-and-registration-form/assets/130668892/b9b8c6c7-82dd-4bce-b06e-c1054dc839e6)
 
+![signup](https://github.com/NSagynbek/login-and-registration-form/assets/130668892/138bbf1d-7bcd-42c1-b5bc-5196fba82aca)
+
 
 Features
 Login Form: Users can enter their email/username and password to log in.
@@ -10,7 +12,7 @@ Password Toggle: Users can click the "SHOW" button to reveal the password, makin
 Social Login: Provides options to log in or sign up using Facebook or Google.
 Switch Between Login and Signup: Users can easily switch between the login and signup forms.
 Usage
-Login Form: Enter your email/username and password. Click the "SHOW" button to reveal the password if needed. Click the "LOGIN" button to log in.
+Login Form: Enter your email/username and password. Click the "SHOW" button to reveal the password if needed. Click the "Log in" button to log in.
 
 Signup Form: Click the "New user? Signup now" link to switch to the signup form. Enter your name, email, and password. Click the "SHOW" button to reveal the password if needed. Click the "SIGNUP" button to create an account.
 
